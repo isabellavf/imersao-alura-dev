@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="converter.js"></script>
+    <title>Converdor de temperaturas</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+          Conversor de Temperaturas
+        </h1>
+        <p class="page-subtitle">
+          Converta temperaturas
+        </p>
+        <img src="https://s3.static.brasilescola.uol.com.br/be/e/escalas%20termometricas(1).jpg" class="page-logo" alt=""><br><br>
+        <label for="moeda">Insira uma valor de temperatura em Celsius</label><br>
+        <input type="number" id="valor" size="2" /><br>
+        <button type="submit" onclick="ConverterTudo()">Converter</button>
+        <h2 id="valorCelsius"></h2>
+        <h2 id="valorKelvin"></h2>
+        <h2 id="valorFarenheit"></h2>
+      </div>
+      <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+</body>
+</html>

@@ -1,0 +1,63 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+    background-image: url("https://imagens.climatempo.com.br/climapress/galeria/2022/06/cfeca6b93097ea072bd946b075fcd654.jpg");
+    background-color: #000000;
+    background-size: 200vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    height: 80vh;
+    width: 450px;
+    margin: auto;
+  }
+  
+  .page-title {
+    color: #F24130;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #8C0303;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  input {
+    margin: 12px;
+    padding: 6px;
+    border-radius: 5px;
+  }
+  
+  label {
+    color: #8C0303;
+  }
+  
+  button {
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    background: #F2E2CE;
+  }
+  
+  h2 {
+    color: #3D5A73;
+    font-size: 30px;
+  }
+  
+  
