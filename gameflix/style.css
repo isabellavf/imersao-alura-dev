@@ -1,7 +1,8 @@
 body {
     font-family: "Roboto Mono", monospace;
     text-align: center;
-    min-height: 600px;
+    height: 100vh;
+    width: 100vw;
     background-image: url("https://www.ps4wallpapers.com/wp-content/uploads/2017/02/bg-blurred-5.jpg");
     background-color: #000000;
     background-size: cover;
